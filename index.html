@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="search-container">
+      <input
+        id="search-input"
+        class="search-control"
+        type="text"
+        placeholder="city name"
+      />
+      <button id="search-btn" class="search-control">Search</button>
+    </div>
+
+    <main>
+      <div id="weather-container">
+        <div class="city-name">--</div>
+        <div class="icon">--</div>
+        <div class="temperature">--</div>
+        <div class="desc"></div>
+        <hr />
+        <div class="extra-info">
+          <p class="wind">--</p>
+          <p class="humidity">--</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Designed by Jing Gu, powered by
+        <a href="https://openweathermap.org/">openweathermap</a>
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
